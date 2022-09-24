@@ -1,0 +1,16 @@
+:root {
+    --vermelho-desaturado: #ce9797;
+    --vermelho-suave: #f96262;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
