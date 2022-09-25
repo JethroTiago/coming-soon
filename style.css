@@ -14,3 +14,29 @@ body {
     list-style: none;
     border: 0;
 }
+
+.gabi-logo {
+    width: 120px;
+    height: 50px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.card-textos {
+    width: 100%;
+    text-align: center;
+}
+
+.card-imagem {
+    width: 100%;
+    height: 100%;
+}
