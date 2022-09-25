@@ -1,10 +1,12 @@
 :root {
     --vermelho-desaturado: #ce9797;
     --vermelho-suave: #f96262;
+    --branco-bg: #fff7f8;
 }
 
 body {
     font-family: 'Josefin Sans', sans-serif;
+    background-color: var(--branco-bg)
 }
 
 * {
@@ -16,9 +18,9 @@ body {
 }
 
 .gabi-logo {
+    margin-left: 5vw;
     width: 120px;
     height: 50px;
-    margin: 0 auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -28,15 +30,45 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
-    margin: auto;
 }
 
 .card-textos {
+    margin: 3vw;
     width: 100%;
-    text-align: center;
+}
+
+.card-titulo {
+    margin-top: 5vw;
+    text-transform: uppercase;
+    font-size: 4.5vw;
+    margin-left: 5vw;
+}
+
+.card-descricao {
+    font-size: 1.5vw;
+    color: var(--vermelho-desaturado);
+    margin-top: 2vw;
+    margin-left: 5vw;
+}
+
+.input {
+    margin-top: 2vw;
+    margin-left: 5vw;
+    padding: 1vw;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.botao {
+    color: var(--branco-bg);
+    background-color: var(--vermelho-suave);
+    padding: 1vw;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .card-imagem {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
+    text-align: center;
 }
