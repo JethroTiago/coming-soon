@@ -40,7 +40,8 @@ body {
 .card-titulo {
     margin-top: 5vw;
     text-transform: uppercase;
-    font-size: 4.5vw;
+    letter-spacing: 0.6vw;
+    font-size: 4.2vw;
     margin-left: 5vw;
 }
 
@@ -51,20 +52,36 @@ body {
     margin-left: 5vw;
 }
 
+.local-email {
+    margin: 5vw;
+    position: relative;
+    width: 300px;
+}
+
 .input {
-    margin-top: 2vw;
-    margin-left: 5vw;
-    padding: 1vw;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    padding: 10px 100px 10px 20px;
+    line-height: 1;
+    box-sizing: border-box;
+    outline: none;
 }
 
 .botao {
-    color: var(--branco-bg);
-    background-color: var(--vermelho-suave);
-    padding: 1vw;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    border: 0;
+    background: #d1095e;
+    color: #fff;
+    outline: none;
+    margin: 0;
+    padding: 0 20px;
+    border-radius: 100px;
+    z-index: 2;
 }
 
 .card-imagem {
