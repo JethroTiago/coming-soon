@@ -75,8 +75,10 @@ body {
     right: 3px;
     top: 4px;
     border: 0;
-    background: #d1095e;
-    color: #fff;
+    background: var(--vermelho-suave);
+    color: var(--branco-bg);
+    font-weight: 700;
+    font-size: 20px;
     outline: none;
     margin: 0;
     padding: 0 20px;
