@@ -62,20 +62,19 @@ body {
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 100px;
-    padding: 10px 100px 10px 20px;
+    padding: 12px 100px 12px 20px;
     line-height: 1;
     box-sizing: border-box;
     outline: none;
 }
 
 .botao {
-    width: 60px;
-    height: 30px;
+    width: 70px;
+    height: 40px;
     position: absolute;
-    right: 3px;
-    top: 4px;
+    right: 1px;
     border: 0;
-    background: var(--vermelho-suave);
+    background-image: linear-gradient(to right, #ce9797, #f96262);
     color: var(--branco-bg);
     font-weight: 700;
     font-size: 20px;
