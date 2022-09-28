@@ -87,7 +87,7 @@ body {
     font-size: 25px;
     background-image: linear-gradient(to right, #f96262, #e7bbbb);
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.40);
-    transition: 0.8s;
+    transition: 1s;
 }
 
 .card-imagem {
@@ -106,11 +106,15 @@ body {
 @media screen and (min-width: 320px) {
     .card {
         flex-direction: column-reverse;
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-imagem {
+        
     }
     
     .imagem-mobile {
-        margin: auto;
-        width: 100%;
         height: 100%;
         display: block;
     }
