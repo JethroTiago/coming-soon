@@ -19,7 +19,8 @@ body {
 .gabi-logo {
     top: 4vw;
     position: absolute;
-    width: 180px;
+    width: 130px;
+    margin-left: 40px;
 }
 
 .card {
@@ -91,4 +92,36 @@ body {
 .card-imagem {
     margin: 1vw;
     position: initial;
+}
+
+.imagem-desktop {
+    display: block;
+}
+
+.imagem-mobile {
+    display: none;
+}
+
+@media screen and (min-width: 320px) {
+    .card {
+        flex-direction: column-reverse;
+    }
+    
+    .imagem-mobile {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .imagem-desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .imagem-mobile {
+        display: none;
+    }
+    .imagem-desktop {
+        display: block;
+    }
 }
