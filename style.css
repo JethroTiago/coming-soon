@@ -86,7 +86,8 @@ body {
 .botao:hover {
     font-size: 25px;
     background-image: linear-gradient(to right, #f96262, #e7bbbb);
-    transition: 1.2s;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.40);
+    transition: 0.8s;
 }
 
 .card-imagem {
