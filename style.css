@@ -82,6 +82,12 @@ body {
     z-index: 2;
 }
 
+.botao:hover {
+    font-size: 25px;
+    background-image: linear-gradient(to right, #f96262, #e7bbbb);
+    transition: 1.2s;
+}
+
 .card-imagem {
     margin: 1vw;
     position: initial;
