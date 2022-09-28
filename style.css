@@ -1,46 +1,46 @@
 :root {
+    --branco-bg: #fff7f8;
     --vermelho-desaturado: #ce9797;
     --vermelho-suave: #f96262;
-    --branco-bg: #fff7f8;
 }
 
 body {
+    background-color: var(--branco-bg);
     font-family: 'Josefin Sans', sans-serif;
-    background-color: var(--branco-bg)
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    list-style: none;
     border: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .gabi-logo {
-    top: 4vw;
-    position: absolute;
-    width: 130px;
     margin-left: 40px;
+    position: absolute;
+    top: 4vw;
+    width: 130px;
 }
 
 .card {
-    display: flex;
     align-items: center;
+    display: flex;
+    height: 100vh;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
 }
 
 .card-textos {
-    padding: 10vw;
     margin: auto;
+    padding: 10vw;
 }
 
 .card-titulo {
-    text-transform: uppercase;
-    letter-spacing: 10px;
     font-size: 38px;
+    letter-spacing: 10px;
     margin: 4vw;
+    text-transform: uppercase;
 }
 
 .card-descricao {
@@ -108,6 +108,7 @@ body {
     }
     
     .imagem-mobile {
+        margin: auto;
         width: 100%;
         height: 100%;
         display: block;
@@ -118,6 +119,10 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+    .card {
+        flex-direction: row;
+    }
+
     .imagem-mobile {
         display: none;
     }
