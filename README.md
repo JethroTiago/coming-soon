@@ -8,7 +8,7 @@ Requests the visitor's email to inform him when it'll be active.
 
 ### Project Preview:
 
--- soon --
+![Coming soon Print](https://user-images.githubusercontent.com/103612874/193066074-cd07f23c-7a08-4370-830b-367498ab346d.jpg)
 
 Desafio da plataforma [Front-End Mentor](https://www.frontendmentor.io/), modificando o projeto ["Base Apparel coming soon page"](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0)
 
