@@ -1,4 +1,4 @@
-const email = document.getElementById('email');
+/* const email = document.getElementById('email');
 const btn = document.querySelector(".botao");
 
 btn.addEventListener("submit", (e) => {
@@ -11,4 +11,4 @@ function checkEmail() {
     if(emailValue = 'true') {
         console.log('Email enviado!');
     }
-}
+} */

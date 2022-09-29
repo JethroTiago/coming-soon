@@ -17,125 +17,179 @@ body {
 }
 
 .gabi-logo {
-    margin-left: 40px;
-    position: absolute;
-    top: 1vw;
-    width: 180px;
+    height: 60px;
+    width: 90px;
 }
 
-.card {
-    align-items: center;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    width: 100vw;
+.imagem-desktop {
+    display: none;
+}
+
+.imagem-mobile {
+    height: 100%;
+    width: 100%;
 }
 
 .card-textos {
-    margin: auto;
-    padding: 10vw;
+    height: 100%;
+    width: 100%;
+}
+
+.palavraPagina {
+    color: var(--vermelho-desaturado);
 }
 
 .card-titulo {
-    font-size: 48px;
+    font-size: 23px;
     letter-spacing: 12px;
-    margin: 3vw 0 1vw 4vw;
+    margin: 15vw 5vw 5vw 0;
+    text-align: center;
     text-transform: uppercase;
 }
 
-.corPagina {
-    color: var(--vermelho-desaturado);
-}
-
 .card-descricao {
-    font-size: 20px;
     color: var(--vermelho-desaturado);
-    margin: 3vw 0 1vw 4vw;
+    font-size: 12px;
+    margin: 5vw 5vw 10vw 0vw;
+    padding: 0 1vw 0 1vw;
+    text-align: center;
 }
 
 .local-email {
-    margin: 5vw;
+    margin: 3vw;
     position: relative;
-    width: 300px;
+    width: 90%;
 }
 
 .input {
-    width: 100%;
-    border: 1px solid #dacacd;
+    border: 2px solid #dacacd;
     border-radius: 100px;
-    padding: 12px 100px 12px 20px;
-    line-height: 2;
     box-sizing: border-box;
+    line-height: 2;
     outline: none;
+    padding: 12px 100px 12px 20px;
+    width: 100%;
 }
 
+.input::placeholder {
+    color: var(--vermelho-desaturado);
+  }
+
 .botao {
+    background-image: linear-gradient(to right, #e7bbbb, #f96262);
+    border: 0;
+    border-radius: 100px;
+    color: var(--branco-bg);
     cursor: pointer;
-    width: 80px;
+    font-size: 20px;
+    font-weight: 700;
     height: 53px;
+    margin: 0;
+    outline: none;
+    padding: 0 20px;
     position: absolute;
     right: 1px;
-    border: 0;
-    background-image: linear-gradient(to right, #e7bbbb, #f96262);
-    color: var(--branco-bg);
-    font-weight: 700;
-    font-size: 20px;
-    outline: none;
-    margin: 0;
-    padding: 0 20px;
-    border-radius: 100px;
+    width: 80px;
     z-index: 2;
 }
 
 .botao:hover {
-    font-size: 25px;
     background-image: linear-gradient(to right, #f96262, #e7bbbb);
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.40);
+    font-size: 25px;
     transition: 1s;
 }
 
-.card-imagem {
-    margin: 1vw;
-    position: initial;
-}
-
-.imagem-desktop {
-    display: block;
-}
-
-.imagem-mobile {
-    display: none;
-}
-
-@media screen and (min-width: 320px) {
-    .card {
-        flex-direction: column-reverse;
-        width: 100%;
-        height: 100%;
+@media screen and (min-width: 768px) {
+    .gabi-logo {
+        height: 80px;
+        position: absolute;
+        right: 610px;
+        top: 1vw;
+        width: 100px;
     }
 
-    .card-imagem {
-        
+    .card {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 100%;
+        width: 100%;
+    }
+
+    .card-titulo {
+        font-size: 25px;
+        letter-spacing: 10px;
+        margin: 13vw 5vw 5vw 10vw;
+        text-align: justify;
     }
     
-    .imagem-mobile {
-        height: 100%;
-        display: block;
+    .card-descricao {
+        font-size: 17px;
+        margin: 5vw 10vw 4vw 9vw;
+        text-align: justify;
     }
-    .imagem-desktop {
+
+    .imagem-mobile {
         display: none;
+    }
+
+    .imagem-desktop {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+    .local-email {
+        margin: 0 10vw 0 10vw;
+        width: 70%;
     }
 }
 
-@media screen and (min-width: 768px) {
-    .card {
-        flex-direction: row;
+@media screen and (min-width: 1024px) {
+    .gabi-logo {
+        height: 120px;
+        right: 790px;
+        width: 490px;
     }
 
-    .imagem-mobile {
-        display: none;
+    .local-email {
+        margin-bottom: 5vw;
+        width: 450px;
     }
+
+    .card-titulo {
+        font-size: 40px;
+    }
+
+    .card-descricao {
+        font-size: 25px;
+    }
+
     .imagem-desktop {
-        display: block;
+        width: 118%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .gabi-logo {
+        height: 150px;
+        right: 1320px;
+        width: 180px;
+    }
+
+    .card-titulo {
+        font-size: 45px;
+        letter-spacing: 13px;
+        margin: 12vw 5vw 5vw 15vw;
+    }
+
+    .card-descricao {
+        font-size: 30px;
+        margin: 5vw 10vw 5vw 14vw;
+    }
+
+    .local-email {
+        margin: 0 10vw 5vw 15vw;
+        width: 630px;
     }
 }
