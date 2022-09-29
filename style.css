@@ -42,7 +42,7 @@ body {
 .card-titulo {
     font-size: 23px;
     letter-spacing: 12px;
-    margin: 15vw 5vw 5vw 0;
+    margin: 15vw 5vw 5vw 3vw;
     text-align: center;
     text-transform: uppercase;
 }
@@ -50,7 +50,7 @@ body {
 .card-descricao {
     color: var(--vermelho-desaturado);
     font-size: 12px;
-    margin: 5vw 5vw 10vw 0vw;
+    margin: 5vw 5vw 10vw 3vw;
     padding: 0 1vw 0 1vw;
     text-align: center;
 }
