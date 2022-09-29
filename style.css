@@ -102,9 +102,9 @@ body {
 
 @media screen and (min-width: 768px) {
     .gabi-logo {
-        height: 80px;
+        height: 90px;
         position: absolute;
-        right: 610px;
+        right: 600px;
         top: 1vw;
         width: 100px;
     }
@@ -147,9 +147,9 @@ body {
 
 @media screen and (min-width: 1024px) {
     .gabi-logo {
-        height: 120px;
-        right: 790px;
-        width: 490px;
+        height: 160px;
+        right: 610px;
+        width: 470px;
     }
 
     .local-email {
@@ -172,9 +172,9 @@ body {
 
 @media screen and (min-width: 1440px) {
     .gabi-logo {
-        height: 150px;
-        right: 1320px;
-        width: 180px;
+        height: 170px;
+        right: 1050px;
+        width: 190px;
     }
 
     .card-titulo {
