@@ -19,8 +19,8 @@ body {
 .gabi-logo {
     margin-left: 40px;
     position: absolute;
-    top: 4vw;
-    width: 130px;
+    top: 1vw;
+    width: 180px;
 }
 
 .card {
@@ -37,16 +37,20 @@ body {
 }
 
 .card-titulo {
-    font-size: 38px;
-    letter-spacing: 10px;
-    margin: 4vw;
+    font-size: 48px;
+    letter-spacing: 12px;
+    margin: 3vw 0 1vw 4vw;
     text-transform: uppercase;
 }
 
-.card-descricao {
-    font-size: 18px;
+.corPagina {
     color: var(--vermelho-desaturado);
-    margin: 4vw;
+}
+
+.card-descricao {
+    font-size: 20px;
+    color: var(--vermelho-desaturado);
+    margin: 3vw 0 1vw 4vw;
 }
 
 .local-email {
