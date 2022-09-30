@@ -35,6 +35,7 @@ The visitor receives the information that the page is under construction and ent
 
 - HTML5 Structure
 - CSS tools, (like Flex-Box and media query)
+- Mobile-First
 - Responsiveness
 - JavaScript tools
 
