@@ -17,8 +17,9 @@ body {
 }
 
 .gabi-logo {
-    height: 60px;
-    width: 90px;
+    margin-left: 5vw;
+    height: 70px;
+    width: 100px;
 }
 
 .imagem-desktop {
@@ -104,9 +105,9 @@ body {
     .gabi-logo {
         height: 90px;
         position: absolute;
-        right: 600px;
+        right: 74vw;
         top: 1vw;
-        width: 100px;
+        width: 120px;
     }
 
     .card {
@@ -147,9 +148,9 @@ body {
 
 @media screen and (min-width: 1024px) {
     .gabi-logo {
-        height: 160px;
-        right: 610px;
-        width: 470px;
+        height: 120px;
+        right: 75vw;
+        width: 150px;
     }
 
     .local-email {
@@ -173,7 +174,7 @@ body {
 @media screen and (min-width: 1440px) {
     .gabi-logo {
         height: 170px;
-        right: 1050px;
+        right: 72vw;
         width: 190px;
     }
 
