@@ -12,13 +12,13 @@ Requests the visitor's email to inform him when it'll be active.
 
 Desafio da plataforma [Front-End Mentor](https://www.frontendmentor.io/), modificando o projeto ["Base Apparel coming soon page"](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0)
 
-Utilizado técnicas de Layouts Responsivos e JavaScript.
+Utilizado técnicas de Layouts Responsivos.
 
 <br>
 
 [Front-End Mentor](https://www.frontendmentor.io/) challenge, modifying the original project ["Base Apparel coming soon page"](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0)
 
-Used responsive layouts techniques and JavaScript.
+Used responsive layouts techniques.
 
 
 ## How it works
