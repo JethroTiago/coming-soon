@@ -1,14 +1,14 @@
-/*const email = document.getElementById('email');
-const btn = document.getElementById("botao");
+const btn = document.getElementById('botao');
 
-btn.addEventListener("submit", (e) => {
+btn.addEventListener("click", (e) => {
     e.preventDefault();
+    checkEmail()
 });
 
 function checkEmail() {
-    const emailValue = email.value.trim();
+    let emailValue = email.value.trim();
 
     if(emailValue = 'true') {
         console.log('Email enviado!');
     }
-}*/
+}
