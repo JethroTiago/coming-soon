@@ -12,13 +12,13 @@ Requests the visitor's email to inform him when it'll be active.
 
 Desafio da plataforma [Front-End Mentor](https://www.frontendmentor.io/), modificando o projeto ["Base Apparel coming soon page"](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0)
 
-Utilizado técnicas de Layouts Responsivos e JavaScript.
+Utilizado técnicas de Layouts Responsivos.
 
 <br>
 
 [Front-End Mentor](https://www.frontendmentor.io/) challenge, modifying the original project ["Base Apparel coming soon page"](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0)
 
-Used responsive layouts techniques and JavaScript.
+Used responsive layouts techniques.
 
 
 ## How it works
@@ -44,4 +44,12 @@ The visitor receives the information that the page is under construction and ent
 * Instrutor [Pedro Marins](https://github.com/pedromarins)
 
 ---
-Por [Jethro Tiago](https://github.com/JethroTiago)
+
+<h2 id="autor" align="left">Autor</h2>
+<img align="left" src="https://avatars.githubusercontent.com/u/103612874?v=4" width=115>
+<a href="https://github.com/JethroTiago">Jethro Tiago</a>
+<h3 align="left">Você também pode me encontrar por aqui:</h3>
+<p align="left">
+  <a href="https://www.linkedin.com/in/jethrotiago/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Badge Linkedin" /></a>
+  <a href="https://www.youtube.com/c/BEIRADAAVENTURA" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+  <a href="https://instagram.com/jethrotiago" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
