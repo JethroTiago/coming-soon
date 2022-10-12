@@ -10,5 +10,7 @@ function checkEmail() {
 
     if(emailValue = 'true') {
         console.log('Email enviado!');
+    } else {
+        console.log('Falha');
     }
 }
