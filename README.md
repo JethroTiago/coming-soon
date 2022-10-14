@@ -6,6 +6,10 @@ Solicita o e-mail para informar quando retornará ao ar.
 Simple page that alerts the visitor that it's still under construction. 
 Requests the visitor's email to inform him when it'll be active.
 
+### Deploy
+
+http://coming-soon-z54d.vercel.app<br>
+
 ### Project Preview:
 
 ![Coming soon Print](https://user-images.githubusercontent.com/103612874/193066074-cd07f23c-7a08-4370-830b-367498ab346d.jpg)
@@ -19,7 +23,6 @@ Utilizado técnicas de Layouts Responsivos.
 [Front-End Mentor](https://www.frontendmentor.io/) challenge, modifying the original project ["Base Apparel coming soon page"](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0)
 
 Used responsive layouts techniques.
-
 
 ## How it works
 
